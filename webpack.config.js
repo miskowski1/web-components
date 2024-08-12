@@ -29,10 +29,10 @@ module.exports = {
         library: { type: "module" },
 
         // For remotes (please adjust)
-        name: "angularWebComponent",
+        name: "angular1",
         filename: "remoteEntry.js",
         exposes: {
-            './web-components': './src/bootstrap.ts',
+          './web-components': './src/bootstrap.ts',
         },
 
         // For hosts (please adjust)

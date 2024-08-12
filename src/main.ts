@@ -1,7 +1,7 @@
 import { bootstrap } from '@angular-architects/module-federation-tools';
-import { AppComponent } from './app/app.component';
+import { AppModule } from './app/app.module';
 
-bootstrap(AppComponent, {
-  production: false,
+bootstrap(AppModule, {
+  production: true,
   appType: 'microfrontend'
 });
